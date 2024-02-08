@@ -12,18 +12,17 @@ export interface HomePageProps {
 export const HomePage = ({ className }: HomePageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div className={styles.title}>I&apos;M A TITLE</div>
+            <div className={styles.title}>MyCarer 24/7</div>
             <div className={styles.paragraph}>
                 <div className={styles.text}>
-                    I’m a paragraph. Add your own text and edit me on properties panel on the right.
-                    It’s easy. Just select me and make changes to the font on the styles panel on
-                    the right. I’m a great place for you to tell a story and let your viewers know a
-                    little more about you.
+                    Welcome to MyCarer 24/7, your dedicated platform for seamless connections
+                    between compassionate carers and valued clients across the UK. Whether
+                    you&apos;re in need of reliable assistance or eager to provide exceptional care,
+                    our app is here to simplify and enhance your caregiving experience
                 </div>
             </div>
-            <button className={styles.button}>Learn more</button>
             <img
-                src="https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dwixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                src="https://nq41rkqqdukvssfs.public.blob.vercel-storage.com/careragain-OJ1F6EeBDM81Y9ehnLE5Ghsd1q6MPI.png"
                 alt=""
                 className={styles.image}
             />
